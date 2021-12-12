@@ -1,0 +1,20 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayakrishnankk/advent-of-code.git"
+  },
+  "author": "https://github.com/jayakrishnankk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayakrishnankk/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/jayakrishnankk/advent-of-code#readme"
+}
