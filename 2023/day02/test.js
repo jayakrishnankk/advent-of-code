@@ -1,4 +1,4 @@
-import { solution } from './solution.js';
+import { possibleGamesIdSum, powerSum } from './solution.js';
 import { input } from './input.js';
 
 const testInput1 = [
@@ -10,6 +10,10 @@ const testInput1 = [
 ];
 const config = { red: 12, green: 13, blue: 14 };
 
-console.assert(solution(testInput1, config) === 8);
+console.assert(possibleGamesIdSum(testInput1, config) === 8);
 
-console.log(solution(input, config));
+console.log(possibleGamesIdSum(input, config));
+
+console.assert(powerSum(testInput1) === 2286);
+
+console.log(powerSum(input));
