@@ -1,4 +1,4 @@
-import { partSum } from "./solutions.js";
+import { gearRatioSum, partSum } from "./solutions.js";
 import { schematics } from "./input.js";
 
 const testInput =
@@ -13,6 +13,10 @@ const testInput =
 ...$.*....
 .664.598..`;
 
-console.assert(partSum(testInput) == 4361);
+console.assert(partSum(testInput) === 4361);
 
 console.log(partSum(schematics));
+
+console.assert(gearRatioSum(testInput) === 467835);
+
+console.log(gearRatioSum(schematics));
