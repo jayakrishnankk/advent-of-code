@@ -1,5 +1,3 @@
-import {schematics} from "./input.js";
-
 export const partSum = (schematics) => {
     const lines = schematics.split("\n");
     const numbersRe = /(\d+)/g; // find numbers
